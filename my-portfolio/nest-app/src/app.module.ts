@@ -7,7 +7,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '127.0.0.1',
+      host: 'mysql_container',
       port: 3306,
       username: 'root',
       password: '1028',
